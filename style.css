@@ -5,6 +5,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+body {
+  line-height: 1.6;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
 .header-flex {
   display: flex;
   align-items: center;
@@ -20,17 +32,6 @@
   margin-bottom: 5px;
 }
 
-
-body {
-  line-height: 1.6;
-  color: #222;
-}
-
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
 
 .header {
   background: #0b3c5d;
@@ -152,5 +153,6 @@ body {
   width: 32px;
   height: 32px;
 }
+
 
 
