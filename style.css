@@ -19,7 +19,7 @@ body {
 
 .header-flex {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 20px;
 }
 
@@ -153,6 +153,7 @@ body {
   width: 32px;
   height: 32px;
 }
+
 
 
 
