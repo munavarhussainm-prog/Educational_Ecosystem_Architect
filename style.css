@@ -19,14 +19,18 @@ body {
 
 .header-flex {
   display: flex;
-  align-items: left;
+  align-items: center;   /* vertical consistency */
   gap: 20px;
 }
 
+
 .logo img {
-  height: 60px;
+  height: 50px;
+  max-height: 50px;
   width: auto;
+  display: block;
 }
+
 
 .header-content h1 {
   margin-bottom: 5px;
@@ -206,5 +210,6 @@ body {
 .footer h2 {
   color: #f9c74f;
 }
+
 
 
