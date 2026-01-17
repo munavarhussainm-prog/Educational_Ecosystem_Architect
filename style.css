@@ -156,4 +156,59 @@ body {
 
 
 
+/* =========================
+   SECTION-SPECIFIC COLOURS
+   ========================= */
+
+/* HOME / HERO (override existing hero) */
+.hero {
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+}
+
+/* ABOUT SECTION */
+#about {
+  background: #f8f9fa;
+}
+
+/* SERVICES SECTION */
+#services {
+  background: #eef6f0;
+}
+
+#services h2 {
+  color: #1b4332;
+}
+
+#services .services-list li {
+  background: #ffffff;
+  padding: 10px 15px;
+  border-left: 4px solid #2d6a4f;
+}
+
+/* OBJECTIVES SECTION */
+#objectives {
+  background: #fff8e1;
+}
+
+#objectives h2 {
+  color: #8d6e00;
+}
+
+/* APPROACH SECTION */
+#approach {
+  background: #edf2fb;
+}
+
+#approach .step {
+  border-left-color: #4361ee;
+}
+
+/* FOOTER (keep same colour but enhance contrast) */
+.footer {
+  background: #212529;
+}
+
+.footer h2 {
+  color: #f9c74f;
+}
 
