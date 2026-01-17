@@ -179,11 +179,6 @@ body {
   color: #1b4332;
 }
 
-#services .services-list li {
-  background: #ffffff;
-  padding: 10px 15px;
-  border-left: 4px solid #2d6a4f;
-}
 
 /* OBJECTIVES SECTION */
 #objectives {
@@ -211,4 +206,5 @@ body {
 .footer h2 {
   color: #f9c74f;
 }
+
 
