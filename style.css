@@ -17,6 +17,12 @@ body {
   margin: auto;
 }
 
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 
 .header {
   position: sticky;
@@ -35,17 +41,18 @@ body {
   display: block;
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 .header-content h1 {
   margin-bottom: 5px;
 }
 
 
-.header {
-  background: #0b3c5d;
-  color: #fff;
-  padding: 20px 0;
-}
 
 .header h1 {
   margin-bottom: 10px;
@@ -328,6 +335,7 @@ section {
 .footer h2 {
   color: #f9c74f;
 }
+
 
 
 
