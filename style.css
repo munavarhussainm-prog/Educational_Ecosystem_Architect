@@ -17,10 +17,14 @@ body {
   margin: auto;
 }
 
-.header-flex {
-  display: flex;
-  align-items: center;   /* vertical consistency */
-  gap: 20px;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0b3c5d;
+  color: #fff;
+  padding: 15px 0;
 }
 
 
@@ -64,6 +68,11 @@ body {
 .section {
   padding: 60px 0;
 }
+
+section {
+  scroll-margin-top: 140px;
+}
+
 
 .section.light {
   background: #f4f6f8;
@@ -148,6 +157,18 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobile header & scroll offset fix */
+@media (max-width: 600px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  section {
+    scroll-margin-top: 120px;
+  }
+}
+
 
 /* RESOURCES & UPDATES SECTION */
 
@@ -307,6 +328,7 @@ body {
 .footer h2 {
   color: #f9c74f;
 }
+
 
 
 
