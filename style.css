@@ -193,6 +193,41 @@ section {
 }
 
 
+/* =========================
+   FULLSCREEN IMAGE VIEWER
+   ========================= */
+
+.image-viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.image-viewer.active {
+  display: flex;
+}
+
+.image-viewer img {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+}
+
+.close-viewer {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 36px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
 /* RESOURCES & UPDATES SECTION */
 
 #resources {
@@ -351,6 +386,7 @@ section {
 .footer h2 {
   color: #f9c74f;
 }
+
 
 
 
