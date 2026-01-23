@@ -388,6 +388,36 @@ section {
 }
 
 
+/* ===========================
+   SCROLLABLE RESOURCE PANELS
+   =========================== */
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollable list area */
+.resource-list {
+  max-height: 320px;              /* shows approx 10 items */
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* Smooth scrollbar */
+.resource-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.resource-list::-webkit-scrollbar-thumb {
+  background: #0b3c5d;
+  border-radius: 4px;
+}
+
+.resource-list::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
 
 
 
