@@ -273,6 +273,17 @@ section {
 }
 
 
+/* STUDENT RESOURCES SECTION */
+#student-resources {
+  background: #e8f5ff;
+}
+
+#student-resources h2 {
+  color: #003049;
+}
+
+
+
 .footer {
   background: #0b3c5d;
   color: #fff;
@@ -417,6 +428,7 @@ section {
 .resource-list::-webkit-scrollbar-track {
   background: #e2e8f0;
 }
+
 
 
 
