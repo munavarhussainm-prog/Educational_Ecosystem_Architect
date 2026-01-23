@@ -36,3 +36,17 @@ viewer.addEventListener('click', (e) => {
     closeViewer.click();
   }
 });
+
+
+/* ============================
+   LIMIT RESOURCES TO LAST 10
+   ============================ */
+
+document.querySelectorAll('.resource-list').forEach(list => {
+  const limit = parseInt(list.dataset.limit) || 10;
+  const items = Array.from(list.children);
+
+  if (items.length > limit) {
+    items.slice(limit).forEach(item => item.remove());
+  }
+});
