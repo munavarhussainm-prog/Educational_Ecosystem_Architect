@@ -76,7 +76,7 @@ body {
 
 .students-corner {
   color: #f4b400;        /* highlight color */
-  font-weight: 600;
+  font-weight: 800;
 }
 
 
@@ -437,6 +437,7 @@ section {
 .resource-list::-webkit-scrollbar-track {
   background: #e2e8f0;
 }
+
 
 
 
